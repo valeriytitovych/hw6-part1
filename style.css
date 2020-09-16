@@ -1,0 +1,81 @@
+/* reset css */
+body {
+    font-family: "Trebuchet MS", Trebuchet, Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;    
+}
+
+/* base css */
+* {
+    box-sizing: border-box;
+} 
+
+.header {
+    display: flex;    
+    flex-direction: column;    
+    height: 200px;
+    width: 420px;
+    text-align: center;
+    margin: 100px auto;            
+}
+
+.up {
+    font-size: 14px;
+    margin-bottom: 14px;    
+}
+
+.middle {
+    font-size: 48px;
+    color: #27b4b6;
+    margin-top: 14px;
+    margin-bottom: 14px;    
+}
+
+.down {
+    font-size: 17px;
+    margin-top: 14px;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+    margin: 100px auto;
+}
+
+.one, .two, .three, .four {
+    width: 210px;
+    height: 300px;
+    padding: 40px 20px 0 20px;   
+}
+
+.two {
+    background-color: #27b4b6;
+    color: #ffffff;
+}
+
+p {
+    font-size: 12px;
+}
+
+.icon-Anchor, .icon-Diamond, .icon-Eyeglasses, .icon-Monitor {
+    font-size: 36px;
+    margin-bottom: 26px;
+}
+
+.icon-Anchor:before {
+    content: "\e900";
+}
+
+.icon-Diamond:before {
+    content: "\e901";
+    color: #fff;
+}
+
+.icon-Eyeglasses:before {
+    content: "\e902";
+}
+
+.icon-Monitor:before {
+    content: "\e903";
+}
